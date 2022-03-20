@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: black;
+    padding: 0.8rem;
+}
+
+nav a {
+    color: white;
+    padding-left: .8rem;
+    background-color: rgb(19, 18, 18);
+    padding: .5rem;
+    border-radius: .3rem;
+    transition: .2s linear;
+}
+
+nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+main {
+    display:flex;
+}
+
+article {
+    padding: 1rem;
+}
+
+article h2 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+article p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+aside {
+    padding: 1rem;
+    background-color: gray;
+}
+
+aside ul{
+    padding: 1rem;
+
+}
+
+aside a {
+    color: black;
+}
+
+aside a:hover {
+    color: blue;
+}
+
+footer { 
+    background-color: black;
+    padding: 2.5rem;
+    color: white;
+    text-align: center;
+}
